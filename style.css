@@ -1,3 +1,93 @@
 body{
+	font-family: "Myriad Pro"
+}
+.container{
+	width: 1210px;
+	margin: 0 auto;
+}
+.head-main{
+	margin: 20px;
+}
+.head-main h1{
+	font-size: 30px;
+	color: #000;
+	font-weight: 400;
+	text-transform: uppercase;
+	display: inline-block;
+	width: 40%; 
+}
+.head-main .green{
+	color: green;
+}
+.head-main ul{
+    display: inline-block;
+    list-style: none;
+    float: right;
+    width: 50%;
+}
+.head-main li{
+	display: inline-block;
+	padding: 10px 20px;
+}
+.head-main li a {
+    color: #333;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+}
+.head-main li a:focus{
+	color: green;
+}
+.head-main li a:after{
+	content: "";
+	border: 10px solid transparent;
+	border-top: 10px solid green;
+	position: absolute;
+	top: 17px;
+	left: 12px;
+	display: none;
+
+}
+.aside-main .left-main{
+	width: 40%;
+	height: auto;
+	 padding: 10px 60px;
+	 display: inline-block;
+}
+.aside-main .left-main h2,
+.aside-main .left-main p{
+	background: #e1e1e1;
+	 padding: 10px;
+}
+.aside-main .left-main h2{
+    color: #5a9e61;
+    font-size: 24px;
+    font-weight: 500;
+   	margin-bottom: 20px;
+    line-height: 28px;
+    
+}
+.aside-main .left-main p{
+	color: #333;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	margin-bottom: 20px;
 	
 }
+.right-main{
+	display: inline-block;
+	width: 40%;
+}
+/*@media screen and (min-width: 321px) and (max-width: 720px){
+	.head-main h1{
+		display: block;
+		text-align: center;
+	}
+	.head-main ul{
+		display: block;
+		text-align: center;
+	}
+}*/ 
